@@ -39,8 +39,6 @@ function App() {
             <button type="submit" className="submit-btn">Post Blog</button>
         </form>
     </div>
-    {/* {allContent.length > 0  && <BlogCart blogList = {allContent}/>} */}
-
    { allContent.length > 0  && allContent.map((blog,index) => (
                     <div key={index} className ="blog-card">
                         <h3>{blog.title}</h3>
