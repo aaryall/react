@@ -4,8 +4,6 @@ export default function BlogCart({blogList}){
         blogList = blogList.slice(index,2);
         
     }
-    
-    console.log("blogList ",blogList);
     return(
         
         <>

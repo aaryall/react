@@ -18,7 +18,7 @@ function App() {
       content : formData.content
     }
     setAllContent([...allContent,newBlog]);
-    console.log("newBlog",newBlog);
+
     setformData({title:"",content:""});
     titleRef.current.focus();
   }
